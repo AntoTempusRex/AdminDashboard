@@ -41,13 +41,13 @@
                         </a>
                     </li>
                     <li class="link flex items-center justify-center">
-                        <a href="PeminjamanAdmin.html" class="hover:bg-putihan/[10%] active-link flex whitespace-nowrap px-5 rounded-lg transition duration-300 ease-in-out">
+                        <a href="PeminjamanAdmin.html" class="hover:bg-putihan/[10%] flex whitespace-nowrap px-5 rounded-lg transition duration-300 ease-in-out">
                             <i class='bx bxs-spreadsheet text-xl mx-1 me-7'></i>
                             <span class="text">Peminjaman</span>
                         </a>
                     </li>
                     <li class="link flex items-center justify-center">
-                        <a href="DataRuanganAUT.html" class="hover:bg-putihan/[10%] flex whitespace-nowrap px-5 rounded-lg transition duration-300 ease-in-out">
+                        <a href="DataRuanganAUT.html" class="hover:bg-putihan/[10%] active-link flex whitespace-nowrap px-5 rounded-lg transition duration-300 ease-in-out">
                             <i class='bx bx-line-chart text-xl mx-1 me-7'></i>
                             <span class="text">Data Referensi</span>
                         </a>
@@ -95,24 +95,24 @@
                             </div>
 
                             <div class="mb-2">
-                              <label for="email" class="block mb-2 text-sm text-gray-900 font-semibold">Nomor Ruangan</label>
-                              <input type="email" id="email" class="bg-gray-300 border border-gray-300 text-gray-900 text-sm rounded-full outline-none ps-5 block w-full p-1.5"/>
+                              <label for="nomor" class="block mb-2 text-sm text-gray-900 font-semibold">Nomor Ruangan</label>
+                              <input type="number" id="nomor" class="bg-gray-300 border border-gray-300 text-gray-900 text-sm rounded-full outline-none ps-5 block w-full p-1.5"/>
                             </div>
                             <div class="mb-2">
-                              <label for="password" class="block mb-2 text-sm text-gray-900 font-semibold">Nama Ruangan</label>
-                              <input type="password" id="password" class="bg-gray-300 border border-gray-300 text-gray-900 text-sm rounded-full outline-none ps-5 block w-full p-1.5"/>
+                              <label for="nama_ruangan" class="block mb-2 text-sm text-gray-900 font-semibold">Nama Ruangan</label>
+                              <input type="text" id="nama_ruangan" class="bg-gray-300 border border-gray-300 text-gray-900 text-sm rounded-full outline-none ps-5 block w-full p-1.5"/>
                             </div>
                             <div class="mb-2">
-                              <label for="email" class="block mb-2 text-sm text-gray-900 font-semibold">jumlah PC</label>
-                              <input type="email" id="email" class="bg-gray-300 border border-gray-300 text-gray-900 text-sm rounded-full outline-none ps-5 block w-full p-1.5"/>
+                              <label for="jumlahpc" class="block mb-2 text-sm text-gray-900 font-semibold">Jumlah PC</label>
+                              <input type="number" id="jumlahpc" class="bg-gray-300 border border-gray-300 text-gray-900 text-sm rounded-full outline-none ps-5 block w-full p-1.5"/>
                             </div>
                             <div class="mb-2">
                               <label for="password" class="block mb-2 text-sm text-gray-900 font-semibold">Kapasitas Orang</label>
                               <input type="password" id="password" class="bg-gray-300 border border-gray-300 text-gray-900 text-sm rounded-full outline-none ps-5 block w-full p-1.5"/>
                             </div>
                             <div class="mb-2">
-                              <label for="email" class="block mb-2 text-sm text-gray-900 font-semibold">Fasilitas</label>
-                              <input type="email" id="email" class="bg-gray-300 border border-gray-300 text-gray-900 text-sm rounded-full outline-none ps-5 block w-full p-1.5"/>
+                              <label for="fasilitas" class="block mb-2 text-sm text-gray-900 font-semibold">Fasilitas</label>
+                              <input type="text" id="fasilitas" class="bg-gray-300 border border-gray-300 text-gray-900 text-sm rounded-full outline-none ps-5 block w-full p-1.5"/>
                             </div>
                             <div class="flex gap-2 mt-3">
                                 <input type="file" id="uploadfile" class="hidden">
@@ -120,8 +120,8 @@
                                         <i class='bx bx-cloud-upload text-2xl'></i>
                                         <span class="ms-2">Add Picture</span>
                                     </label>
-                                <button type="submit" class="text-white ms-auto bg-red-500 hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-2xl text-sm w-full sm:w-auto px-5 py-2.5 text-center">Cancel</button>    
-                                <button type="submit" class="text-white bg-green-500 hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-2xl text-sm w-full sm:w-auto px-5 py-2.5 text-center"><a href="PeminjamanAdmin.html">Save</a></button>    
+                                <a class="ms-auto" href="DataRuanganAUT.html"><button type="button" class="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-2xl text-sm w-full sm:w-auto px-5 py-2.5 text-center">Cancel</button></a>    
+                                <a href="DataRuanganAUT.html"><button type="submit" class="text-white bg-green-500 hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-2xl text-sm w-full sm:w-auto px-5 py-2.5 text-center">Save</button></a>    
                             </div>
                         </form>
                     </div>
